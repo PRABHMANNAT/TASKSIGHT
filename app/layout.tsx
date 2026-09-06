@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'TaskSight — Visual intelligence for physical operations',
+  title: 'TaskSight — AI that verifies physical work',
   description:
-    'Physical AI that guides, verifies, and documents mission-critical data center maintenance.',
+    'Building AI that guides, verifies, and documents data-center maintenance. Explore the simulated workflow, proposed architecture and validation plan.',
 };
 
 export default function RootLayout({

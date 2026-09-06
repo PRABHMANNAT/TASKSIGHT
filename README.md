@@ -118,6 +118,21 @@ TaskSight is best understood as a **Physical Work Intelligence Platform**, begin
 
 ## Frontend
 
+### Current implementation and limitations
+
+The website is a prototype presentation, not a deployed AI verification system.
+
+- `/`: positioning, interactive glasses poster, product workflow, industry evidence, proposed architecture, asset graph, roadmap and founder.
+- `/demo`: deterministic six-state maintenance simulation with play, pause, replay, step selection, interactive drive bays and a downloadable **simulated** JSON report.
+- `/research`: cited industry evidence, planned evaluation criteria and an empty experiment log. Add documented results in `lib/experiments.ts` only after measurement.
+- `/invest`: investor brief covering the thesis, intended buyer, alternatives, business model, risks, milestones and funding status, with a print option.
+
+The investor introduction modal downloads a local text file. It does **not** deliver email, persist personal information or add anyone to a waitlist. A verified contact destination and server integration are still needed for direct delivery.
+
+Visuals use the existing generated glasses poster with pointer transforms and functional schematic rack/asset diagrams. No GLB model is supplied. Camera inference, action recognition, real maintenance reports, operator pilots and production metrics remain future work.
+
+Industry evidence is linked to [Uptime Institute's May 13, 2026 announcement](https://uptimeinstitute.com/about-ui/press-releases/uptime-announces-annual-outage-analysis-report-2026). It describes industry outages, not TaskSight results.
+
 This repository contains the TaskSight concept landing page built with React, TypeScript, Vinext, Tailwind CSS, and the shadcn component library.
 
 ### Run locally
