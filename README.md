@@ -148,6 +148,12 @@ Create a production build with:
 npm run build
 ```
 
+### Deploy to Vercel
+
+Import this GitHub repository into Vercel. The project uses native Next.js, so
+Vercel automatically detects the framework and runs `npm run build`; no custom
+build command or output directory is required.
+
 ## License
 
 Licensed under the MIT License. Copyright © 2026 Prabhmannat Singh. See [LICENSE](./LICENSE).
