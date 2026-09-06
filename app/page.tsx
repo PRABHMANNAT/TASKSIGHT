@@ -56,7 +56,7 @@ function AccessDialog({ compact = false }: { compact?: boolean }) {
               <p className="eyebrow text-[11px]">EARLY ACCESS</p>
               <DialogTitle className="text-2xl tracking-[-0.03em]">Bring guidance into the field.</DialogTitle>
               <DialogDescription className="text-white/55">
-                Tell us where AI glasses could help your operations team most.
+                Tell us where visual intelligence could help your operations team most.
               </DialogDescription>
             </DialogHeader>
             <form className="mt-3 space-y-3" onSubmit={handleSubmit}>
@@ -87,9 +87,9 @@ export default function Home() {
       <div className="ambient ambient-two" />
 
       <header className="topbar" aria-label="Primary navigation">
-        <a className="brand" href="#product" aria-label="Playground Project home">
+        <a className="brand" href="#product" aria-label="TaskSight home">
           <span className="brand-mark" />
-          Playground Project
+          TaskSight
         </a>
         <nav className="desktop-nav" aria-label="Main menu">
           {navItems.map((item) => (
@@ -104,13 +104,13 @@ export default function Home() {
 
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-copy">
-          <p className="eyebrow">PLAYGROUND PROJECT</p>
-          <h1 id="hero-title">AI Glasses for Physical Work</h1>
+          <p className="eyebrow">TASKSIGHT</p>
+          <h1 id="hero-title">Visual intelligence for physical operations</h1>
           <p className="subhead">
-            Built for data center operations. Real-time guidance for inspection,
-            <br className="desktop-break" /> maintenance, and verification.
+            Guide every maintenance task, catch mistakes in real time,
+            <br className="desktop-break" /> verify each step, and document the job.
           </p>
-          <p className="concept">Startup concept for a YC application</p>
+          <p className="concept">Starting with mission-critical data center maintenance</p>
         </div>
 
         <div className="product-stage" aria-label="AI smart glasses product rendering">

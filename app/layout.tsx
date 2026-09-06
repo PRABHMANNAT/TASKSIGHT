@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Playground Project — AI Glasses for Physical Work',
+  title: 'TaskSight — Visual intelligence for physical operations',
   description:
-    'Real-time AI guidance for data center inspection, maintenance, and verification.',
+    'Physical AI that guides, verifies, and documents mission-critical data center maintenance.',
 };
 
 export default function RootLayout({
