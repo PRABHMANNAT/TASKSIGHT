@@ -676,7 +676,7 @@ function Team() {
   return (
     <section className="ts-section team-section" id="team">
       <div>
-        <Label>08 / FOUNDER</Label>
+        <Label>08 / TEAM</Label>
         <h2>
           Built around a question
           <br />
@@ -687,18 +687,30 @@ function Team() {
           matters?
         </p>
       </div>
-      <article className="founder-card">
-        <div className="founder-monogram">PS</div>
-        <h3>Prabhmannat Singh</h3>
-        <Label>FOUNDER / TASKSIGHT</Label>
-        <p>
-          Building the first verification workflow for data-center maintenance,
-          with an initial focus on camera-based guidance and evidence.
-        </p>
-        <Link href="https://github.com/PRABHMANNAT" className="text-link">
-          <Github size={16} /> Follow the build <ArrowUpRight size={14} />
-        </Link>
-      </article>
+      <div className="team-members">
+        <article className="team-member-card">
+          <div className="team-monogram">PS</div>
+          <h3>Prabhmannat Singh</h3>
+          <Label>FOUNDER / TASKSIGHT</Label>
+          <p>
+            Building the first verification workflow for data-center
+            maintenance, with an initial focus on camera-based guidance and
+            evidence.
+          </p>
+          <Link href="https://github.com/PRABHMANNAT" className="text-link">
+            <Github size={16} /> Follow the build <ArrowUpRight size={14} />
+          </Link>
+        </article>
+        <article className="team-member-card">
+          <div className="team-monogram">AH</div>
+          <h3>Arnav Hooda</h3>
+          <Label>TEAM / TASKSIGHT</Label>
+          <p>
+            Shaping the product experience and engineering foundation for
+            reliable, evidence-led maintenance workflows.
+          </p>
+        </article>
+      </div>
     </section>
   );
 }

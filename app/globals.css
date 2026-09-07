@@ -974,11 +974,16 @@ h3 {
 .team-section h2 {
   font-size: 40px;
 }
-.founder-card {
+.team-members {
   border-left: 1px solid #ffffff20;
   padding-left: 40px;
 }
-.founder-monogram {
+.team-member-card + .team-member-card {
+  border-top: 1px solid #ffffff18;
+  margin-top: 38px;
+  padding-top: 38px;
+}
+.team-monogram {
   width: 64px;
   height: 64px;
   display: grid;
@@ -989,10 +994,10 @@ h3 {
   font-size: 20px;
   margin-bottom: 23px;
 }
-.founder-card p:not(.ts-label) {
+.team-member-card p:not(.ts-label) {
   font-size: 14px;
 }
-.founder-card .ts-label {
+.team-member-card .ts-label {
   font-size: 9px;
 }
 .contact-section {
@@ -1484,7 +1489,7 @@ h3 {
   .team-section h2 {
     font-size: 34px;
   }
-  .founder-card {
+  .team-members {
     padding-left: 25px;
   }
   .contact-section {
