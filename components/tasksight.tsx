@@ -704,7 +704,7 @@ function Team() {
         <article className="team-member-card">
           <div className="team-monogram">AH</div>
           <h3>Arnav Hooda</h3>
-          <Label>TEAM / TASKSIGHT</Label>
+          <Label>LEAD SYSTEM ENGINEER / TASKSIGHT</Label>
           <p>
             Shaping the product experience and engineering foundation for
             reliable, evidence-led maintenance workflows.
